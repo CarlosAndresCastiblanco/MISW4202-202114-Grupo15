@@ -29,7 +29,7 @@ export class InicioSesionComponent {
   onSubmit() {
     this.submitted = true;
 
-    this.router.navigate(['/historiaClinica']);
+    //this.router.navigate(['/historiaClinica']);
     if (this.loginForm.invalid) {
       return;
     }
@@ -41,6 +41,7 @@ export class InicioSesionComponent {
           this.router.navigate(['/historiaClinica']);
         },
         (error: any) => {
+          alert('Credenciales incorrectas');
           this.loading = false;
         });
   }

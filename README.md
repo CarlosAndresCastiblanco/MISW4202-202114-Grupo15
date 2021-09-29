@@ -1,4 +1,19 @@
 # MISW4202-202114-Grupo15
+## Experimento 2
+
+### Requisito
+
+Instalación de  [NodeJS](https://nodejs.org/en/download/)
+Instalación de  [Angular](https://angular.io/cli) 
+
+`cd Experimento2/FrontEnd/`
+
+`npm install`
+
+#### Ejecución FrontEnd
+
+`ng serve`
+
 ## Arquitectura de Software Uniandes
 
 Datos del Monitoreo en el transcurso del tiempo haciendo uso de grafana

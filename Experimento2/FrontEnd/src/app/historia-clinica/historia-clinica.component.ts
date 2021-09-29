@@ -21,9 +21,10 @@ export class HistoriaClinicaComponent {
     this.clinicaService.editarHistoriaClinica()
       .subscribe(
         (data: any) => {
-
+          alert('Usuario puede modificar la historia clínica');
         },
         (error: any) => {
+          alert('Usuario NO puede modificar la historia clínica');
           this.loading = false;
         });
 

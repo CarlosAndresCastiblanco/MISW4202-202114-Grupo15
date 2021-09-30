@@ -1,6 +1,8 @@
 # MISW4202-202114-Grupo15
 ## Experimento 2
 
+### _FrontEnd_
+
 ### Requisito
 
 Instalación de  [NodeJS](https://nodejs.org/en/download/)
@@ -13,6 +15,20 @@ Instalación de  [Angular](https://angular.io/cli)
 #### Ejecución FrontEnd
 
 `ng serve`
+
+### _BackEnd_
+
+### Requisito
+
+Instalación de  [Python](https://www.python.org/downloads/)
+
+`cd Experimento2/BackEnd/`
+
+`pip install -r requirements.txt`
+
+#### Ejecución BackEnd
+
+`flask run`
 
 ## Arquitectura de Software Uniandes
 

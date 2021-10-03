@@ -38,6 +38,7 @@ export class InicioSesionComponent {
     this.clinicaService.login(this.f.username.value, this.f.password.value)
       .subscribe(
         (data: any) => {
+          window.localStorage.setItem('token', data.token);
           this.router.navigate(['/historiaClinica']);
         },
         (error: any) => {
